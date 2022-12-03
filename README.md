@@ -4,9 +4,9 @@
  
  - 1° Módulo - Desenvolvimento de Sistemas
 
- Portal construído no 1° Módulo - Desenvolvimento de Sistemas da Etec.
+ Login para o Portal, construído no 1° Módulo - Desenvolvimento de Sistemas da Etec.
 
- [Clique aqui para acessar! :)](https://1fellype.github.io/Portal/)
+ [Clique aqui para acessar! :)]()
 
 ## Tecnologias
 
