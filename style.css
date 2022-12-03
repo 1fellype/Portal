@@ -106,6 +106,7 @@ img {
   border-radius: 10px;
   object-fit: cover;
   transition: transform .3s;
+  transform: scale(1.1);
 }
 
 #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
@@ -212,3 +213,50 @@ img {
 #item-3:checked ~ .player #test  {
   transform: translateY(-80px);
 }
+
+header div {
+  animation: fromTop .7s backwards;
+  animation-delay: .3s;
+}
+
+main section {
+  animation: fromBottom .7s backwards;
+}
+
+main section:nth-child(1) {
+  animation-delay: 0;
+}
+
+main section:nth-child(2) {
+  animation-delay: .4s;
+}
+
+main section:nth-child(3) {
+  animation-delay: .8s;
+}
+
+
+@keyframes fromTop {
+  from {
+      opacity: 0;
+      transform: translateY(-30px)
+  }
+
+  to{
+      opacity: 1;
+      transform: translateY(0)
+  }
+}
+
+@keyframes fromBottom {
+  from {
+      opacity: 0;
+      transform: translateX(-30px)
+  }
+
+  to {
+      opacity: 1;
+      transform: translateX(0)
+  }
+}
+/* Y vai para vertical e X para horizontal*/
